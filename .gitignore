@@ -1,0 +1,20 @@
+log
+__pycache__
+checkpoints
+*pycache*
+*init*
+out-img
+*.mp4
+inference_config/*.onnx
+cc*
+pretrained_models
+*.pt
+receivedVideo
+wandb
+# pretrained_models checkpoints in Drive
+# temporary
+data/VN_SIGN/full_data_200_400.csv
+CK
+label_1_200
+label_1_400
+data/200_sign_words.csv
