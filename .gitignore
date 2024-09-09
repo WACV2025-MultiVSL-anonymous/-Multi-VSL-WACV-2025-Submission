@@ -18,3 +18,7 @@ CK
 label_1_200
 label_1_400
 data/200_sign_words.csv
+Embedding
+label_predictions_1view.csv
+label_predictions_3view.csv
+Visual.ipynb
