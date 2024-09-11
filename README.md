@@ -24,7 +24,7 @@ Updating...
 Updating...
 
 ## Setting up
-1. set up envs: pip install -r requirements.txt
+1. Set up envs: pip install -r requirements.txt
 2. Download checkpoint from above link and save as /checkpoints
 3. Download data from data link and save as /Yolo_dataset/Blur_video
    
@@ -42,6 +42,5 @@ Run our models using the following commands:
 
 ##### Testing 
 - One-view: python main.py --config configs/i3d/test_cfg/label_1_1000/i3d_one_view_from_autsl.yaml
-- Three-view: python main.py --config configs/i3d/test_cfg/label_1_1000/i3d_three_view_finetune_from_one_view.yaml
-
-
+- Three-view: python main.py --config 
+\configs/i3d/test_cfg/label_1_1000/i3d_three_view_finetune_from_one_view.yaml\
