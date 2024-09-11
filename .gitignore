@@ -29,3 +29,9 @@ label_predictions_3view.csv
 **/data/*.py
 /data/labels_400_1000.csv
 data/processed_video_url
+data/labels
+data/200_sign_words.csv
+configs/ablation_study
+configs/hand_crop
+configs/Knowledge_Distillation
+configs/visual_prompt_tuning
