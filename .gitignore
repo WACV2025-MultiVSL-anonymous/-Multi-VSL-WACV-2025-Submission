@@ -25,4 +25,4 @@ label_predictions_3view.csv
 data/200_sign_words.csv
 data/label_1_200/process_fc
 data/label_1_200/EDA.ipynb
-data/*.py
+**/data/*.py
