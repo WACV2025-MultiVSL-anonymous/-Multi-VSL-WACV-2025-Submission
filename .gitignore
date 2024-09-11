@@ -21,4 +21,4 @@ data/200_sign_words.csv
 Embedding
 label_predictions_1view.csv
 label_predictions_3view.csv
-Visual.ipynb
+*.ipynb
