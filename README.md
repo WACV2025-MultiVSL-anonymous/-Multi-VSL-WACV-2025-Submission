@@ -37,9 +37,9 @@ Run our models using the following commands:
 
 #### Example: Model I3D in 1-1000 dataset
 ##### Training
-- One-view: python main.py --config configs/i3d/label_1_1000/i3d_one_view_from_AUTSLyaml
-- Three-view: python main.py --config configs/i3d/label_1_1000/i3d_three_view_finetune_from_one_view.yaml
+One-view: python main.py --config configs/i3d/label_1_1000/i3d_one_view_from_AUTSLyaml
+Three-view: python main.py --config configs/i3d/label_1_1000/i3d_three_view_finetune_from_one_view.yaml
 
 ##### Testing 
-- One-view: python main.py --config configs/i3d/test_cfg/label_1_1000/i3d_one_view_from_autsl.yaml
-- <span>Three-view: python main.py --config configs/i3d/test_cfg/label_1_1000/i3d_three_view_finetune_from_one_view.yaml<span>
+One-view: python main.py --config configs/i3d/test_cfg/label_1_1000/i3d_one_view_from_autsl.yaml
+Three-view: python main.py --config configs/i3d/test_cfg/label_1_1000/i3d_three_view_finetune_from_one_view.yaml
