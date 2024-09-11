@@ -22,7 +22,8 @@ Embedding
 label_predictions_1view.csv
 label_predictions_3view.csv
 *.ipynb
-data/200_sign_words.csv
-data/label_1_200/process_fc
-data/label_1_200/EDA.ipynb
+/data/200_sign_words.csv
+/data/label_1_200/process_fc
+/data/label_1_200/EDA.ipynb
 **/data/*.py
+/data/labels_400_1000.csv
