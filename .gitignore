@@ -13,10 +13,11 @@ receivedVideo
 wandb
 # pretrained_models checkpoints in Drive
 # temporary
+*.pkl
 data/VN_SIGN/full_data_200_400.csv
 CK
-data/label_1_200
-data/label_1_400
+data/label_1_200/*.py
+data/label_1_400/EDA.ipynb
 data/200_sign_words.csv
 Embedding
 label_predictions_1view.csv
@@ -27,3 +28,4 @@ label_predictions_3view.csv
 /data/label_1_200/EDA.ipynb
 **/data/*.py
 /data/labels_400_1000.csv
+data/processed_video_url
