@@ -18,10 +18,10 @@ performance improvement of up to 19.75% compared to
 models trained on single-view data.
 
 ## Data
-Updating...
+Video data download link: https://drive.google.com/drive/folders/1VcI_dmQRsG3pk8ohyqznH3jsAfRUngIR?usp=sharing
 
 ## Checkpoints
-Updating...
+Checkpoints download link: https://drive.google.com/drive/folders/1l820AALsFHOxnFVQiJR82eNkKVTv91mj?usp=sharing
 
 ## Setting up
 1. Set up envs: pip install -r requirements.txt
