@@ -98,6 +98,6 @@ if __name__ == "__main__":
     print(full_data.shape)
     
     for idx, data in tqdm(full_data.iterrows(), total=full_data.shape[0]):
-        gen_pose("/mnt/disk4/handsign_project/son_data/Yolo_dataset/Blur_video",data['name'],pose_detector)
+        gen_pose("Yolo_dataset/Blur_video",data['name'],pose_detector)
     
    

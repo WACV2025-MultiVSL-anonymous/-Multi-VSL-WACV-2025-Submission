@@ -57,8 +57,7 @@ class MVIT(Dataset):
         index_setting = self.data_cfg['transform_cfg'].get('index_setting', ['consecutive','pad','central','pad'])
         clip = []
         if self.data_cfg['dataset_name'] == "VN_SIGN":
-            #path = f'/mnt/disk4/handsign_project/son_data/Yolo_dataset/Blur_video/{name}'   
-            path = f'/mnt/disk2/anhnct/Hand-Sign-Recognition/data/VN_SIGN/videos/{name}'   
+            path = f'Yolo_dataset/Blur_video/{name}'   
         elif self.data_cfg['dataset_name'] == "AUTSL":
             path = f'{self.base_url}/{self.split}/{name}'   
         vr = VideoReader(path,width=320, height=256)

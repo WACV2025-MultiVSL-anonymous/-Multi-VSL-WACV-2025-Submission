@@ -92,7 +92,7 @@ class ThreeViewsData(Dataset):
 
        
         if self.data_cfg['dataset_name'] == "VN_SIGN":
-            path = f'/mnt/disk4/handsign_project/son_data/Yolo_dataset/Blur_video/{name}'   
+            path = f'Yolo_dataset/Blur_video/{name}'   
         vr = VideoReader(path,width=320, height=256)
         frames = vr.get_batch(selected_index).asnumpy()
         for frame_index,frame in zip(selected_index,frames):
@@ -164,9 +164,9 @@ class ThreeViewsData(Dataset):
     def read_videos(self,center,left,right):
         index_setting = self.data_cfg['transform_cfg'].get('index_setting', ['consecutive','pad','central','pad'])
         # 
-        vlen1,c_width,c_height = self.count_frames(os.path.join('/mnt/disk4/handsign_project/son_data/Yolo_dataset/Blur_video',center))
-        vlen2,l_width,l_height = self.count_frames(os.path.join('/mnt/disk4/handsign_project/son_data/Yolo_dataset/Blur_video',left))
-        vlen3,r_width,r_height = self.count_frames(os.path.join('/mnt/disk4/handsign_project/son_data/Yolo_dataset/Blur_video',right))
+        vlen1,c_width,c_height = self.count_frames(os.path.join('Yolo_dataset/Blur_video',center))
+        vlen2,l_width,l_height = self.count_frames(os.path.join('Yolo_dataset/Blur_video',left))
+        vlen3,r_width,r_height = self.count_frames(os.path.join('Yolo_dataset/Blur_video',right))
 
         # Initialize output videos = 0
         center_video = torch.zeros((self.data_cfg['num_output_frames'], 3, self.data_cfg['vid_transform']['IMAGE_SIZE'], self.data_cfg['vid_transform']['IMAGE_SIZE']))

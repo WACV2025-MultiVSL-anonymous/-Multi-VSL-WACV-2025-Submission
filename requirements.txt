@@ -12,6 +12,7 @@ angles==1.9.12
 annotated-types==0.6.0
 antlr4-python3-runtime==4.9.3
 anyio==3.6.2
+apex @ file:///mnt/disk4/handsign_project/son_data/universal-medical-image-segmentation/apex
 appdirs==1.4.4
 arabic-reshaper==2.1.3
 argon2-cffi==21.3.0
@@ -30,7 +31,7 @@ backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 beautifulsoup4==4.12.3
 bleach==5.0.1
 blend-modes==2.1.0
-blinker @ file:///home/conda/feedstock_root/build_artifacts/blinker_1664823096650/work
+blinker==1.4
 bondpy==1.8.5
 braceexpand==0.1.7
 brotlipy==0.7.0
@@ -115,7 +116,7 @@ googleapis-common-protos==1.63.2
 graphlib_backport==1.1.0
 graphviz==0.20.3
 greenlet==3.0.3
-grpcio==1.64.0
+grpcio @ file:///tmp/build/80754af9/grpcio_1637590823556/work
 gunicorn==21.2.0
 h11==0.14.0
 h5py @ file:///home/conda/feedstock_root/build_artifacts/h5py_1637963921863/work
@@ -131,8 +132,8 @@ image_geometry==1.13.1
 imageio==2.34.0
 imageio-ffmpeg==0.4.9
 imgaug==0.4.0
+importlib-metadata==4.12.0
 importlib-resources @ file:///home/conda/feedstock_root/build_artifacts/importlib_resources_1665204935269/work
-importlib_metadata==7.0.2
 interactive-markers==1.11.5
 interface-meta==1.3.0
 iopath==0.1.10
@@ -142,7 +143,7 @@ ipython-genutils==0.2.0
 ipywidgets==7.6.3
 itsdangerous==2.1.2
 jedi @ file:///tmp/build/80754af9/jedi_1644315233700/work
-Jinja2 @ file:///croot/jinja2_1706733616596/work
+Jinja2==3.1.2
 jmespath==0.10.0
 joblib==1.4.2
 joint_state_publisher==1.12.15
@@ -183,7 +184,7 @@ llama-parse==0.4.9
 lmdb==1.5.1
 loguru==0.6.0
 lxml==5.2.2
-Markdown @ file:///home/conda/feedstock_root/build_artifacts/markdown_1657921053229/work
+Markdown==3.3.7
 markdown-it-py==3.0.0
 MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1648737563195/work
 marshmallow==3.21.3
@@ -218,14 +219,14 @@ nbclient==0.7.0
 nbconvert==7.2.2
 nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1665426034066/work
 nest-asyncio==1.6.0
-networkx @ file:///croot/networkx_1690561992265/work
+networkx==2.8.1
 nibabel==3.2.2
 ninja==1.11.1.1
 nltk==3.8.1
 notebook==6.5.1
 notebook_shim==0.2.0
 numexpr==2.8.6
-numpy==1.24.4
+numpy @ file:///croot/numpy_and_numpy_base_1665773175172/work
 nvidia-cublas-cu11==11.10.3.66
 nvidia-cublas-cu12==12.1.3.1
 nvidia-cuda-cupti-cu11==11.7.101
@@ -252,7 +253,7 @@ nvidia-nvtx-cu11==11.7.91
 nvidia-nvtx-cu12==12.1.105
 nvitop==1.3.2
 oauth2client==4.1.3
-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/oauthlib_1666056362788/work
+oauthlib==3.2.0
 objgraph==3.6.1
 omegaconf==2.3.0
 onnx==1.15.0
@@ -275,7 +276,7 @@ oss2==2.17.0
 packaging==23.2
 paddleocr==2.8.1
 paddlepaddle==2.6.1
-pandas==1.4.2
+pandas==2.0.3
 pandocfilters==1.5.0
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 pathlib==1.0.1
@@ -293,7 +294,7 @@ prometheus-client==0.15.0
 promise==2.3
 prompt_toolkit==3.0.47
 proto-plus==1.24.0
-protobuf==5.27.2
+protobuf==3.19.4
 psutil==5.9.1
 ptflops==0.7.3
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
@@ -301,7 +302,7 @@ pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
 py-cpuinfo==9.0.0
 pyarrow==2.0.0
 pyasn1==0.4.8
-pyasn1-modules==0.2.8
+pyasn1-modules==0.2.7
 pyclipper==1.3.0.post5
 pycocotools==2.0.7
 pycodestyle==2.9.1
@@ -313,7 +314,7 @@ pydantic-settings==2.2.1
 pydantic_core==2.16.3
 PyDrive==1.3.1
 pygame==2.1.2
-Pygments==2.17.2
+Pygments @ file:///croot/pygments_1684279966437/work
 PyJWT @ file:///home/conda/feedstock_root/build_artifacts/pyjwt_1666240235902/work
 pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
 pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1652235407899/work
@@ -333,7 +334,7 @@ pytweening==1.0.4
 pytz==2023.4
 pyu2f @ file:///home/conda/feedstock_root/build_artifacts/pyu2f_1604248910016/work
 PyWavelets==1.3.0
-PyYAML==6.0.1
+PyYAML==5.4.1
 pyzmq @ file:///opt/conda/conda-bld/pyzmq_1657724186960/work
 qdldl==0.1.7.post2
 qt-dotgraph==0.4.2
@@ -344,7 +345,7 @@ qudida==0.0.4
 rapidfuzz==3.9.4
 rarfile==4.2
 regex==2023.12.25
-requests @ file:///croot/requests_1707355572290/work
+requests==2.28.2
 requests-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/requests-oauthlib_1643557462909/work
 resource_retriever==1.12.7
 rich==13.4.2
@@ -400,7 +401,7 @@ rqt_tf_tree==0.6.0
 rqt_top==0.4.8
 rqt_topic==0.4.11
 rqt_web==0.4.8
-rsa @ file:///home/conda/feedstock_root/build_artifacts/rsa_1658328885051/work
+rsa==4.8
 rviz==1.13.30
 safetensors==0.4.2
 scikit-image==0.21.0
@@ -434,7 +435,7 @@ synthtiger==1.0.2
 tabulate==0.9.0
 tenacity==8.5.0
 tensorboard==2.14.0
-tensorboard-data-server==0.7.2
+tensorboard-data-server @ file:///home/conda/feedstock_root/build_artifacts/tensorboard-data-server_1649932776625/work/tensorboard_data_server-0.6.0-py3-none-manylinux2010_x86_64.whl
 tensorboard-plugin-wit @ file:///home/conda/feedstock_root/build_artifacts/tensorboard-plugin-wit_1641458951060/work/tensorboard_plugin_wit-1.8.1-py3-none-any.whl
 tensorflow-estimator @ file:///home/builder/stiwari/miniconda3/envs/tf_new_env/conda-bld/tensorflow-estimator_1661448080217/work/tensorflow_estimator-2.9.0-py2.py3-none-any.whl
 termcolor @ file:///home/conda/feedstock_root/build_artifacts/termcolor_1662985294144/work
@@ -465,11 +466,12 @@ torchsummary==1.5.1
 torchvision==0.15.0+cu117
 tornado @ file:///tmp/build/80754af9/tornado_1606942300299/work
 tqdm==4.66.4
-traitlets==5.5.0
+traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
 transformers==4.42.4
 triton==2.0.0
 typing-inspect==0.9.0
 typing_extensions==4.10.0
+tzdata==2024.1
 ujson==5.3.0
 ultralytics @ git+https://github.com/THU-MIG/yolov10.git@aad320dd80b56694e590c950b25060a134966496
 update==0.0.1
@@ -487,7 +489,7 @@ webdataset==0.2.86
 webencodings==0.5.1
 websocket-client==1.4.1
 websockets==12.0
-Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1660053523487/work
+Werkzeug==2.1.2
 wget==3.2
 widgetsnbextension==3.5.1
 wrapt @ file:///home/conda/feedstock_root/build_artifacts/wrapt_1651495238964/work
